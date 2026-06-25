@@ -19,7 +19,7 @@ CLASS zfrh_cl_holamundo01 IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 
-    out->write( 'Inicio de prueba' ).
+    out->write( 'Inicio de prueba2' ).
 
     TRY.
         "create http destination by url; API endpoint for API sandbox
